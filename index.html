@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leonardo Leão - Projetos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            color: #3b5998;
+            text-align: center;
+        }
+        .project {
+            background-color: #e3f2fd;
+            padding: 15px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        .project h2 {
+            color: #00796b;
+        }
+        .toggle-details {
+            cursor: pointer;
+            color: #ff4500;
+            text-decoration: underline;
+        }
+        .details {
+            display: none;
+            margin-top: 10px;
+            padding: 10px;
+            background-color: #fff3e0;
+            border-radius: 8px;
+        }
+        .contact {
+            text-align: center;
+            margin-top: 30px;
+        }
+        .impact {
+            background-color: #ffeb3b;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+            font-weight: bold;
+        }
+        .button {
+            display: inline-block;
+            margin: 10px 5px;
+            padding: 10px 20px;
+            background-color: #3b5998;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Projetos de Leonardo Leão</h1>
+
+    <div class="impact">
+        🚀 **Impacto Comprovado!** 🚀 <br>
+        Já instalei mais de **300 bots** para Discord, ajudando diversas comunidades a se tornarem mais interativas e funcionais. 
+        Se você deseja transformar sua experiência no Discord, estou aqui para ajudar! 
+    </div>
+
+    <div class="project">
+        <h2>Bot de Feedbacks para Discord 📈</h2>
+        <p>
+            Um bot desenvolvido para impulsionar lojas virtuais no Discord, gerando feedbacks automáticos e realistas. 
+            Ele cria uma atmosfera de confiança, variando produtos e tempos de envio para engajar os clientes.
+        </p>
+        <span class="toggle-details">Mais informações...</span>
+        <div class="details">
+            <p>
+                Este bot não realiza vendas, mas simula feedbacks positivos para melhorar a imagem da loja. 
+                Com configurações flexíveis, permite que o usuário ajuste a frequência de envios e a lista de produtos.
+            </p>
+        </div>
+    </div>
+
+    <div class="project">
+        <h2>Bot de Vendas para Discord 💰</h2>
+        <p>
+            Um bot que simula um sistema de vendas no Discord, projetado para gerar engajamento e credibilidade na loja virtual.
+        </p>
+        <span class="toggle-details">Mais informações...</span>
+        <div class="details">
+            <p>
+                O bot divulga produtos em um canal específico e cria um canal privado para cada comprador, 
+                onde envia mensagens de agradecimento e informações do produto. 
+                Após 5 minutos, as mensagens e canais são apagados, mantendo a privacidade do comprador.
+            </p>
+        </div>
+    </div>
+
+    <div class="contact">
+        📞 **Entre em contato para mais informações:** <br>
+        Email: <a href="mailto:negociosleonardol@gmail.com">negociosleonardol@gmail.com</a> <br>
+        Telefone: <a href="https://wa.me/5562981187120">+55 62 98118-7120</a> (Clique para falar no WhatsApp)
+    </div>
+
+    <div class="impact" style="margin-top: 30px;">
+        💼 **Serviços Oferecidos** 💼 <br>
+        Realizo serviços de **instalações, configurações, atualizações** e **criações de bots** personalizados para Discord. 
+        Se você tem uma ideia em mente, vamos transformar isso em realidade!
+    </div>
+
+    <div style="text-align: center; margin-top: 30px;">
+        <a href="#feedback-bot" class="button">Bot de Feedbacks</a>
+        <a href="#sales-bot" class="button">Bot de Vendas</a>
+    </div>
+
+    <script>
+        const toggleDetails = document.querySelectorAll('.toggle-details');
+        toggleDetails.forEach(item => {
+            item.addEventListener('click', () => {
+                const details = item.nextElementSibling;
+                details.style.display = details.style.display === 'block' ? 'none' : 'block';
+            });
+        });
+    </script>
+
+    <h2 id="feedback-bot">Mais sobre o Bot de Feedbacks</h2>
+    <p>
+        O Bot de Feedbacks para Discord foi projetado para aumentar a credibilidade das lojas virtuais. 
+        Ele simula um fluxo constante de feedbacks positivos, permitindo que os clientes se sintam seguros ao comprar.
+    </p>
+
+    <h2 id="sales-bot">Mais sobre o Bot de Vendas</h2>
+    <p>
+        O Bot de Vendas oferece uma experiência de compra dinâmica, criando um canal privado para cada cliente, 
+        garantindo a privacidade e proporcionando um atendimento personalizado.
+    </p>
+
+</body>
+</html>
