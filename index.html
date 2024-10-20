@@ -4,37 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leonardo Leão - Projetos</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f9f9f9;
-            color: #333;
+            font-family: 'Roboto', sans-serif;
+            background-color: #2C2F33;
+            color: #FFFFFF;
             margin: 0;
             padding: 20px;
         }
         h1 {
-            color: #3b5998;
+            color: #7289DA;
             text-align: center;
+            margin-bottom: 20px;
         }
         .project {
-            background-color: #e3f2fd;
-            padding: 15px;
+            background-color: #40444B;
+            padding: 20px;
             border-radius: 10px;
             margin: 20px 0;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
         }
         .project h2 {
-            color: #00796b;
+            color: #43B581;
         }
         .toggle-details {
             cursor: pointer;
-            color: #ff4500;
+            color: #FFD700;
             text-decoration: underline;
+            margin-top: 10px;
+            display: inline-block;
         }
         .details {
             display: none;
             margin-top: 10px;
             padding: 10px;
-            background-color: #fff3e0;
+            background-color: #7289DA;
             border-radius: 8px;
         }
         .contact {
@@ -42,22 +47,27 @@
             margin-top: 30px;
         }
         .impact {
-            background-color: #ffeb3b;
+            background-color: #FFD700;
             padding: 15px;
             border-radius: 8px;
             margin: 20px 0;
             font-weight: bold;
+            color: #2C2F33;
         }
         .button {
             display: inline-block;
             margin: 10px 5px;
             padding: 10px 20px;
-            background-color: #3b5998;
+            background-color: #7289DA;
             color: white;
             border: none;
             border-radius: 5px;
             text-decoration: none;
             cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: #5B6EAE;
         }
     </style>
 </head>
@@ -103,8 +113,8 @@
 
     <div class="contact">
         📞 **Entre em contato para mais informações:** <br>
-        Email: <a href="mailto:negociosleonardol@gmail.com">negociosleonardol@gmail.com</a> <br>
-        Telefone: <a href="https://wa.me/5562981187120">+55 62 98118-7120</a> (Clique para falar no WhatsApp)
+        Email: <a href="mailto:negociosleonardol@gmail.com" style="color: #FFD700;">negociosleonardol@gmail.com</a> <br>
+        Telefone: <a href="https://wa.me/5562981187120" style="color: #FFD700;">+55 62 98118-7120</a> (Clique para falar no WhatsApp)
     </div>
 
     <div class="impact" style="margin-top: 30px;">
@@ -128,13 +138,13 @@
         });
     </script>
 
-    <h2 id="feedback-bot">Mais sobre o Bot de Feedbacks</h2>
+    <h2 id="feedback-bot" style="margin-top: 50px;">Mais sobre o Bot de Feedbacks</h2>
     <p>
         O Bot de Feedbacks para Discord foi projetado para aumentar a credibilidade das lojas virtuais. 
         Ele simula um fluxo constante de feedbacks positivos, permitindo que os clientes se sintam seguros ao comprar.
     </p>
 
-    <h2 id="sales-bot">Mais sobre o Bot de Vendas</h2>
+    <h2 id="sales-bot" style="margin-top: 50px;">Mais sobre o Bot de Vendas</h2>
     <p>
         O Bot de Vendas oferece uma experiência de compra dinâmica, criando um canal privado para cada cliente, 
         garantindo a privacidade e proporcionando um atendimento personalizado.
